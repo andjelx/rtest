@@ -1,0 +1,174 @@
+[ 72012 771][21 Nov 13:16:45][TR_API] TR_API::TrAPIInitDebug: Debug initiated successfully 
+[ 72012 771][21 Nov 13:16:45][COMMAND_LINE] COMMAND_LINE was started
+[ 72012 771][21 Nov 13:16:45][RaisCertManager] RaisCertManager::CertManagerFactory::Create: Entering...
+[ 72012 771][21 Nov 13:16:45][RaisCertManager] RaisCertManager::CertManagerFactory::CertManager: Entering
+[ 72012 771][21 Nov 13:16:45][] handleCRLDistributionPoints: unsupported uri format https://www.apple.com/certificateauthority/root.crl
+[ 72012 771][21 Nov 13:16:45][] handleCRLDistributionPoints: unsupported uri format hhtp://www.suscerte.gob.ve/lcr
+[ 72012 771][21 Nov 13:16:45][RaisCertManager] RaisCertManager::KeychainHelper::init: Entering...
+[ 72012 771][21 Nov 13:16:45][RaisCertManager] RaisCertManager::KeychainHelper::createHandles: Entering...
+[ 72012 771][21 Nov 13:16:45][RaisCertManager] RaisCertManager::KeychainHelper::init: started server()
+[ 72012 8027][21 Nov 13:16:45][RaisCertManager] RaisCertManager::KeychainHelper::server: Entering...
+[ 72012 8967][21 Nov 13:16:45][TR_API] TR_API::TrAPI::TrAPIInitThread: Initializing...
+[ 72012 8967][21 Nov 13:16:45][MessageLoop] MessageLoop::MessageLoop::Create: Message Loop created
+[ 72012 8967][21 Nov 13:16:45][messaging] messaging::setup: created a new TCP multi-pipe
+[ 72012 8967][21 Nov 13:16:45][TR_SRV2CL_X] TR_SRV2CL_X::Create: Created OK
+[ 72012 8967][21 Nov 13:16:45][TR_CL2SRV] TR_CL2SRV::Create: Created OK
+[ 72012 8967][21 Nov 13:16:45][TrComInf] TrComInf::TrComInfInit: __start__ Date: Nov 21, 2018
+13:16:45
+[ 72012 8967][21 Nov 13:16:45][messaging] messaging::add_msg: added a new cb: msg - 2
+[ 72012 8967][21 Nov 13:16:45][tcpserver] TcpMultiPipe::pipe_socket_connect: Created m_sendingfd: 0x9 socket
+[ 72012 8967][21 Nov 13:16:45][tcpserver] TcpMultiPipe::pipe_socket_connect: m_sendingfd: 0x9 socket connected
+[ 72012 8967][21 Nov 13:16:45][tcpserver] TcpMultiPipe::pipe_if_connect: Successfully connected to socket on port 7778
+[ 72012 8967][21 Nov 13:16:45][messaging] messaging::init: Successfully initialized pipe
+[ 72012 8967][21 Nov 13:16:45][TrComInf] TrComInf::TrComInfInit: __end__ 13:16:45 Total time - 0 seconds
+[ 72012 8967][21 Nov 13:16:45][TR_API] TR_API::TrAPI::TrAPIInitThread: Adding error cb
+[ 72012 8967][21 Nov 13:16:45][TR_API] TR_API::TrAPI::TrAPIInitThread: Api Inited OK
+[ 72012 10755][21 Nov 13:16:45][TR_API] TR_API::TrAPINotificationThread: Started
+[ 72012 10755][21 Nov 13:16:45][TR_API] TR_API::TrAPINotificationThread: Acquiring queue mutex
+[ 72012 771][21 Nov 13:16:45][TR_API] TR_API::TrGetConfigArg: paramName == debug_mode_enabled
+[ 72012 771][21 Nov 13:16:45][TR_API] TR_API::TrGetConfiguration: Acquiring general mutex
+[ 72012 10755][21 Nov 13:16:45][TR_API] TR_API::TrAPINotificationThread: Queue is empty. Waiting for it to fill
+[ 72012 10755][21 Nov 13:16:45][TR_API] TR_API::TrAPINotificationThread: Released queue mutex
+[ 72012 771][21 Nov 13:16:45][MSGOBJ] msg_obj_init: format=1.0 id=TR_PARAMS
+[ 72012 771][21 Nov 13:16:45][TrComInf] TrComInfSendSync: __start__ 13:16:45
+[ 72012 771][21 Nov 13:16:45][TrComInf] TrComInf::TrComInfSendAsynchronic: __start__ 13:16:45
+[ 72012 771][21 Nov 13:16:45][TrComInf] TrComInf::TrComInf::TrComInfSendAsynchronic: Acquiring mutex
+[ 72012 771][21 Nov 13:16:45][messaging] messaging::send_all: Sending Message {{ 2 }} , len 294
+[ 72012 771][21 Nov 13:16:45][tcpserver] TcpMultiPipe::pipe_if_send: Message (302 bytes) written successfully to socket 0x9
+[ 72012 771][21 Nov 13:16:45][TrComInf] TrComInf::TrComInf::TrComInfSendAsynchronic: Released mutex
+[ 72012 771][21 Nov 13:16:45][TrComInf] TrComInf::TrComInfSendAsynchronic: __end__ 13:16:45 Total time - 0 seconds
+[ 72012 8967][21 Nov 13:16:45][tcpserver] TcpMultiPipe_socket_rcv_handler: Entering
+[ 72012 8967][21 Nov 13:16:45][tcpserver] TcpMultiPipe::socket_rcv_cb: Entering on socket 0x9
+[ 72012 8967][21 Nov 13:16:45][tcpserver] TcpMultiPipe::socket_rcv_cb: Read 637 bytes from socket 0x9
+[ 72012 8967][21 Nov 13:16:45][tcpserver] TcpMultiPipe::socket_rcv_cb: passed the SetLen!
+[ 72012 8967][21 Nov 13:16:45][messaging] messaging::_receive_callback: added a new client item: pipeID - 9
+[ 72012 8967][21 Nov 13:16:45][messaging] messaging::recognize_command: Received 2
+[ 72012 8967][21 Nov 13:16:45][messaging] messaging::msg_invoke: Running cmd 2
+[ 72012 8967][21 Nov 13:16:45][TrComInf] TrComInf::ReceiveMsg: Received ack!
+[ 72012 771][21 Nov 13:16:45][TrComInf] TrComInfSendSync: __end__ 13:16:45 Total time - 0 seconds
+[ 72012 771][21 Nov 13:16:45][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72012 771][21 Nov 13:16:45][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72012 771][21 Nov 13:16:45][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72012 771][21 Nov 13:16:45][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72012 771][21 Nov 13:16:45][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72012 771][21 Nov 13:16:45][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72012 771][21 Nov 13:16:45][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72012 771][21 Nov 13:16:45][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72012 771][21 Nov 13:16:45][TR_API] TR_API::TrGetConfiguration: Released general mutex
+[ 72012 771][21 Nov 13:16:45][TR_API] TR_API::TrAPIStopDebug: Disabling debug mode
+[ 72061 771][21 Nov 13:16:54][TR_API] TR_API::TrAPIInitDebug: Debug initiated successfully 
+[ 72061 771][21 Nov 13:16:54][COMMAND_LINE] COMMAND_LINE was started
+[ 72061 771][21 Nov 13:16:54][RaisCertManager] RaisCertManager::CertManagerFactory::Create: Entering...
+[ 72061 771][21 Nov 13:16:54][RaisCertManager] RaisCertManager::CertManagerFactory::CertManager: Entering
+[ 72061 771][21 Nov 13:16:54][] handleCRLDistributionPoints: unsupported uri format https://www.apple.com/certificateauthority/root.crl
+[ 72061 771][21 Nov 13:16:54][] handleCRLDistributionPoints: unsupported uri format hhtp://www.suscerte.gob.ve/lcr
+[ 72061 771][21 Nov 13:16:54][RaisCertManager] RaisCertManager::KeychainHelper::init: Entering...
+[ 72061 771][21 Nov 13:16:54][RaisCertManager] RaisCertManager::KeychainHelper::createHandles: Entering...
+[ 72061 771][21 Nov 13:16:54][RaisCertManager] RaisCertManager::KeychainHelper::init: started server()
+[ 72061 7515][21 Nov 13:16:54][RaisCertManager] RaisCertManager::KeychainHelper::server: Entering...
+[ 72061 7943][21 Nov 13:16:54][TR_API] TR_API::TrAPI::TrAPIInitThread: Initializing...
+[ 72061 7943][21 Nov 13:16:54][MessageLoop] MessageLoop::MessageLoop::Create: Message Loop created
+[ 72061 7943][21 Nov 13:16:54][messaging] messaging::setup: created a new TCP multi-pipe
+[ 72061 7943][21 Nov 13:16:54][TR_SRV2CL_X] TR_SRV2CL_X::Create: Created OK
+[ 72061 7943][21 Nov 13:16:54][TR_CL2SRV] TR_CL2SRV::Create: Created OK
+[ 72061 7943][21 Nov 13:16:54][TrComInf] TrComInf::TrComInfInit: __start__ Date: Nov 21, 2018
+13:16:54
+[ 72061 7943][21 Nov 13:16:54][messaging] messaging::add_msg: added a new cb: msg - 2
+[ 72061 7943][21 Nov 13:16:54][tcpserver] TcpMultiPipe::pipe_socket_connect: Created m_sendingfd: 0x9 socket
+[ 72061 7943][21 Nov 13:16:54][tcpserver] TcpMultiPipe::pipe_socket_connect: m_sendingfd: 0x9 socket connected
+[ 72061 7943][21 Nov 13:16:54][tcpserver] TcpMultiPipe::pipe_if_connect: Successfully connected to socket on port 7778
+[ 72061 7943][21 Nov 13:16:54][messaging] messaging::init: Successfully initialized pipe
+[ 72061 7943][21 Nov 13:16:54][TrComInf] TrComInf::TrComInfInit: __end__ 13:16:54 Total time - 0 seconds
+[ 72061 7943][21 Nov 13:16:54][TR_API] TR_API::TrAPI::TrAPIInitThread: Adding error cb
+[ 72061 7943][21 Nov 13:16:54][TR_API] TR_API::TrAPI::TrAPIInitThread: Api Inited OK
+[ 72061 10755][21 Nov 13:16:54][TR_API] TR_API::TrAPINotificationThread: Started
+[ 72061 10755][21 Nov 13:16:54][TR_API] TR_API::TrAPINotificationThread: Acquiring queue mutex
+[ 72061 10755][21 Nov 13:16:54][TR_API] TR_API::TrAPINotificationThread: Queue is empty. Waiting for it to fill
+[ 72061 771][21 Nov 13:16:54][TR_API] TR_API::TrGetConfigArg: paramName == debug_mode_enabled
+[ 72061 10755][21 Nov 13:16:54][TR_API] TR_API::TrAPINotificationThread: Released queue mutex
+[ 72061 771][21 Nov 13:16:54][TR_API] TR_API::TrGetConfiguration: Acquiring general mutex
+[ 72061 771][21 Nov 13:16:54][MSGOBJ] msg_obj_init: format=1.0 id=TR_PARAMS
+[ 72061 771][21 Nov 13:16:54][TrComInf] TrComInfSendSync: __start__ 13:16:54
+[ 72061 771][21 Nov 13:16:54][TrComInf] TrComInf::TrComInfSendAsynchronic: __start__ 13:16:54
+[ 72061 771][21 Nov 13:16:54][TrComInf] TrComInf::TrComInf::TrComInfSendAsynchronic: Acquiring mutex
+[ 72061 771][21 Nov 13:16:54][messaging] messaging::send_all: Sending Message {{ 2 }} , len 294
+[ 72061 771][21 Nov 13:16:54][tcpserver] TcpMultiPipe::pipe_if_send: Message (302 bytes) written successfully to socket 0x9
+[ 72061 771][21 Nov 13:16:54][TrComInf] TrComInf::TrComInf::TrComInfSendAsynchronic: Released mutex
+[ 72061 771][21 Nov 13:16:54][TrComInf] TrComInf::TrComInfSendAsynchronic: __end__ 13:16:54 Total time - 0 seconds
+[ 72061 7943][21 Nov 13:16:54][tcpserver] TcpMultiPipe_socket_rcv_handler: Entering
+[ 72061 7943][21 Nov 13:16:54][tcpserver] TcpMultiPipe::socket_rcv_cb: Entering on socket 0x9
+[ 72061 7943][21 Nov 13:16:54][tcpserver] TcpMultiPipe::socket_rcv_cb: Read 637 bytes from socket 0x9
+[ 72061 7943][21 Nov 13:16:54][tcpserver] TcpMultiPipe::socket_rcv_cb: passed the SetLen!
+[ 72061 7943][21 Nov 13:16:54][messaging] messaging::_receive_callback: added a new client item: pipeID - 9
+[ 72061 7943][21 Nov 13:16:54][messaging] messaging::recognize_command: Received 2
+[ 72061 7943][21 Nov 13:16:54][messaging] messaging::msg_invoke: Running cmd 2
+[ 72061 7943][21 Nov 13:16:54][TrComInf] TrComInf::ReceiveMsg: Received ack!
+[ 72061 771][21 Nov 13:16:54][TrComInf] TrComInfSendSync: __end__ 13:16:54 Total time - 0 seconds
+[ 72061 771][21 Nov 13:16:54][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72061 771][21 Nov 13:16:54][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72061 771][21 Nov 13:16:54][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72061 771][21 Nov 13:16:54][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72061 771][21 Nov 13:16:54][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72061 771][21 Nov 13:16:54][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72061 771][21 Nov 13:16:54][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72061 771][21 Nov 13:16:54][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72061 771][21 Nov 13:16:54][TR_API] TR_API::TrGetConfiguration: Released general mutex
+[ 72061 771][21 Nov 13:16:54][TR_API] TR_API::TrAPIStopDebug: Disabling debug mode
+[ 72107 771][21 Nov 13:16:57][TR_API] TR_API::TrAPIInitDebug: Debug initiated successfully 
+[ 72107 771][21 Nov 13:16:57][COMMAND_LINE] COMMAND_LINE was started
+[ 72107 771][21 Nov 13:16:57][RaisCertManager] RaisCertManager::CertManagerFactory::Create: Entering...
+[ 72107 771][21 Nov 13:16:57][RaisCertManager] RaisCertManager::CertManagerFactory::CertManager: Entering
+[ 72107 771][21 Nov 13:16:57][] handleCRLDistributionPoints: unsupported uri format https://www.apple.com/certificateauthority/root.crl
+[ 72107 771][21 Nov 13:16:57][] handleCRLDistributionPoints: unsupported uri format hhtp://www.suscerte.gob.ve/lcr
+[ 72107 771][21 Nov 13:16:57][RaisCertManager] RaisCertManager::KeychainHelper::init: Entering...
+[ 72107 771][21 Nov 13:16:57][RaisCertManager] RaisCertManager::KeychainHelper::createHandles: Entering...
+[ 72107 771][21 Nov 13:16:57][RaisCertManager] RaisCertManager::KeychainHelper::init: started server()
+[ 72107 8727][21 Nov 13:16:57][RaisCertManager] RaisCertManager::KeychainHelper::server: Entering...
+[ 72107 7943][21 Nov 13:16:57][TR_API] TR_API::TrAPI::TrAPIInitThread: Initializing...
+[ 72107 7943][21 Nov 13:16:57][MessageLoop] MessageLoop::MessageLoop::Create: Message Loop created
+[ 72107 7943][21 Nov 13:16:57][messaging] messaging::setup: created a new TCP multi-pipe
+[ 72107 7943][21 Nov 13:16:57][TR_SRV2CL_X] TR_SRV2CL_X::Create: Created OK
+[ 72107 7943][21 Nov 13:16:57][TR_CL2SRV] TR_CL2SRV::Create: Created OK
+[ 72107 7943][21 Nov 13:16:57][TrComInf] TrComInf::TrComInfInit: __start__ Date: Nov 21, 2018
+13:16:57
+[ 72107 7943][21 Nov 13:16:57][messaging] messaging::add_msg: added a new cb: msg - 2
+[ 72107 7943][21 Nov 13:16:57][tcpserver] TcpMultiPipe::pipe_socket_connect: Created m_sendingfd: 0x9 socket
+[ 72107 7943][21 Nov 13:16:57][tcpserver] TcpMultiPipe::pipe_socket_connect: m_sendingfd: 0x9 socket connected
+[ 72107 7943][21 Nov 13:16:57][tcpserver] TcpMultiPipe::pipe_if_connect: Successfully connected to socket on port 7778
+[ 72107 7943][21 Nov 13:16:57][messaging] messaging::init: Successfully initialized pipe
+[ 72107 7943][21 Nov 13:16:57][TrComInf] TrComInf::TrComInfInit: __end__ 13:16:57 Total time - 0 seconds
+[ 72107 7943][21 Nov 13:16:57][TR_API] TR_API::TrAPI::TrAPIInitThread: Adding error cb
+[ 72107 7943][21 Nov 13:16:57][TR_API] TR_API::TrAPI::TrAPIInitThread: Api Inited OK
+[ 72107 10755][21 Nov 13:16:57][TR_API] TR_API::TrAPINotificationThread: Started
+[ 72107 10755][21 Nov 13:16:57][TR_API] TR_API::TrAPINotificationThread: Acquiring queue mutex
+[ 72107 10755][21 Nov 13:16:57][TR_API] TR_API::TrAPINotificationThread: Queue is empty. Waiting for it to fill
+[ 72107 10755][21 Nov 13:16:57][TR_API] TR_API::TrAPINotificationThread: Released queue mutex
+[ 72107 771][21 Nov 13:16:57][TR_API] TR_API::TrGetConfigArg: paramName == debug_mode_enabled
+[ 72107 771][21 Nov 13:16:57][TR_API] TR_API::TrGetConfiguration: Acquiring general mutex
+[ 72107 771][21 Nov 13:16:57][MSGOBJ] msg_obj_init: format=1.0 id=TR_PARAMS
+[ 72107 771][21 Nov 13:16:57][TrComInf] TrComInfSendSync: __start__ 13:16:57
+[ 72107 771][21 Nov 13:16:57][TrComInf] TrComInf::TrComInfSendAsynchronic: __start__ 13:16:57
+[ 72107 771][21 Nov 13:16:57][TrComInf] TrComInf::TrComInf::TrComInfSendAsynchronic: Acquiring mutex
+[ 72107 771][21 Nov 13:16:57][messaging] messaging::send_all: Sending Message {{ 2 }} , len 294
+[ 72107 771][21 Nov 13:16:57][tcpserver] TcpMultiPipe::pipe_if_send: Message (302 bytes) written successfully to socket 0x9
+[ 72107 771][21 Nov 13:16:57][TrComInf] TrComInf::TrComInf::TrComInfSendAsynchronic: Released mutex
+[ 72107 771][21 Nov 13:16:57][TrComInf] TrComInf::TrComInfSendAsynchronic: __end__ 13:16:57 Total time - 0 seconds
+[ 72107 7943][21 Nov 13:16:57][tcpserver] TcpMultiPipe_socket_rcv_handler: Entering
+[ 72107 7943][21 Nov 13:16:57][tcpserver] TcpMultiPipe::socket_rcv_cb: Entering on socket 0x9
+[ 72107 7943][21 Nov 13:16:57][tcpserver] TcpMultiPipe::socket_rcv_cb: Read 637 bytes from socket 0x9
+[ 72107 7943][21 Nov 13:16:57][tcpserver] TcpMultiPipe::socket_rcv_cb: passed the SetLen!
+[ 72107 7943][21 Nov 13:16:57][messaging] messaging::_receive_callback: added a new client item: pipeID - 9
+[ 72107 7943][21 Nov 13:16:57][messaging] messaging::recognize_command: Received 2
+[ 72107 7943][21 Nov 13:16:57][messaging] messaging::msg_invoke: Running cmd 2
+[ 72107 7943][21 Nov 13:16:57][TrComInf] TrComInf::ReceiveMsg: Received ack!
+[ 72107 771][21 Nov 13:16:57][TrComInf] TrComInfSendSync: __end__ 13:16:57 Total time - 0 seconds
+[ 72107 771][21 Nov 13:16:57][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72107 771][21 Nov 13:16:57][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72107 771][21 Nov 13:16:57][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72107 771][21 Nov 13:16:57][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72107 771][21 Nov 13:16:57][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72107 771][21 Nov 13:16:57][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72107 771][21 Nov 13:16:57][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72107 771][21 Nov 13:16:57][TrMsg] TrMsg::HandleStringAfterInsertToSet: no change is needed
+[ 72107 771][21 Nov 13:16:57][TR_API] TR_API::TrGetConfiguration: Released general mutex
+[ 72107 771][21 Nov 13:16:57][TR_API] TR_API::TrAPIStopDebug: Disabling debug mode
