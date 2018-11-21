@@ -2,8 +2,6 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  annotations:
-    deployment.kubernetes.io/revision: "6"
   labels:
     app: hello-1
   name: hello-1
